@@ -1,0 +1,89 @@
+ul {
+    list-style-type: none;
+    margin: 0 px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(150, 140, 140, 0.363);
+    color: rgb(92, 92, 211);
+    font-weight: bold;
+  }
+  
+  li {
+    float: left;
+    display: inline;
+    
+    margin-right: 100px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: 20px;
+ }
+
+
+section img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+p {
+    text-align: right;
+   float: right;
+    display: inline-block;
+    width: 44% ;
+    text-decoration: lavender;
+margin: 60px;
+font-size: 16px;
+text-align: center;
+}
+p button {
+  font-size: 30px;
+  float: left;
+  display: -webkit-inline-box;
+  background-color: chartreuse;
+padding: 0px;
+ 
+ margin: 15px;
+}
+
+  div footer {
+   width: 100%;
+    padding: 10px;
+    border: 30px solid khaki;
+    margin: 400px;
+    background-color: khaki;
+
+  }
+  header nav ul  img {
+    padding: 5px;
+width: 200px;
+height: 70px;
+float: left; 
+margin: 0px 15px 15px 0px;
+  }
+  div img {
+    width: 300px;
+    height: 375px;
+    padding: 15px;
+  }
+  #left {
+   width: 40%;
+   vertical-align: top;
+    float: left;
+    display: inline-block;
+   
+  }
+  body {
+    background-color: blanchedalmond;
+  }
