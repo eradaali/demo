@@ -3,7 +3,7 @@ ul {
     margin: 0 px;
     padding: 0px;
     overflow: hidden;
-    background-color: rgba(150, 140, 140, 0.363);
+    background-color: gainsboro;
     color: rgb(92, 92, 211);
     font-weight: bold;
   }
@@ -51,18 +51,27 @@ p button {
   font-size: 30px;
   float: left;
   display: -webkit-inline-box;
-  background-color: chartreuse;
+  background-color: gainsboro;
 padding: 0px;
  
  margin: 15px;
 }
 
   div footer {
-   width: 100%;
-    padding: 10px;
-    border: 30px solid khaki;
-    margin: 400px;
-    background-color: khaki;
+  
+    width: 1000px;
+    float: auto;
+    /* display: block; */
+    float: right;
+    height: 100px;
+    padding: 20px;
+    border: 30px solid gainsboro;
+    /* margin: 400px; */
+    background-color: gainsboro;
+    border-top: 1px solid gainsboro;
+    /* display: inline-block; */
+    text-align: center;
+  
 
   }
   header nav ul  img {
